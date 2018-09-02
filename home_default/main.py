@@ -8,7 +8,7 @@ newly activated or reset.
 ___name___         = "Homescreen (Default)"
 ___license___      = "MIT"
 ___categories___   = ["Homescreens"]
-___dependencies___ = ["homescreen", "shared/logo.png", "shared/sponsors.png"]
+___dependencies___ = ["homescreen", "shared/ketty.png", "shared/lmao.png"]
 ___launchable___   = False
 ___bootstrapped___ = True
 
@@ -19,7 +19,7 @@ from tilda import Buttons
 
 # We ❤️ our sponsors
 init()
-ugfx.display_image(0, 0, "shared/sponsors.png")
+ugfx.display_image(240 320, "shared/lmao.png")
 wait_until = time.ticks_ms() + 3000
 while time.ticks_ms() < wait_until:
     time.sleep(0.1)
@@ -28,11 +28,11 @@ while time.ticks_ms() < wait_until:
 
 # Padding for name
 intro_height = 30
-intro_text = "Hi! I'm"
+intro_text = "My nama"
 name_height = 60
 status_height = 20
 info_height = 30
-logo_path = "shared/logo.png"
+logo_path = "shared/ketty.png"
 logo_height = 150
 logo_width = 56
 
